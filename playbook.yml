@@ -1,0 +1,10 @@
+- hosts: all
+  roles:
+      - ansible-role-agent-devops
+  vars:
+    - az_devops_agent_role: build
+    - az_devops_accountname: fmossamih	
+    - az_devops_agent_username: fromaws2
+    - az_devops_agent_user: ubuntu
+    - az_devops_agent_pool_name: FromAWS
+    - az_devops_accesstoken: ****************************************
